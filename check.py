@@ -34,6 +34,9 @@ def check_maintainer_review():
                     review_status[defined_path] = True
                 else:
                     review_status[defined_path] = False
+    # If any paths do not have reviewer ack fail
     if False in review_status.values():
         return False
-    return True
+    # If all paths have reviewer ack and
+    if False not in review_status.values() and len(review_status) > 0:
+        return True
