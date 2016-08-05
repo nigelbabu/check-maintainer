@@ -1,0 +1,21 @@
+people:
+- avati@redhat.com
+- jdarcy@redhat.com
+- kkeithle@redhat.com
+- vbellur@redhat.com
+- pkarampu@redhat.com>
+- rabhat@redhat.com
+- avishwan@redhat.com
+
+paths:
+  '/':
+  - avati@redhat.com
+  - jdarcy@redhat.com
+  - kkeithle@redhat.com
+  - vbellur@redhat.com
+  xlators/cluster/afr:
+  - pkarampu@redhat.com
+  xlators/features/bit-rot:
+  - rabhat@redhat.com
+  xlators/features/changelog:
+  - avishwan@redhat.com
